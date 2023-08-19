@@ -1,8 +1,13 @@
-# React + Vite
+# ToDoList!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+(Viernes de coding.)
 
-Currently, two official plugins are available:
+Tipica **ToDoList**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+En un solo customHook armé toda la lógica y la funcionalidad.
+
+Hay sólo un componente por fuera de la App, el <li> por cada ToDo item. Le llega la info a través de un mapeo del array de ToDos ([tasks, setTasks] es el state).
+
+El resto de la aplicación está armada directamente en la App. Es sencilla y sin mucha complejidad.
+
+Hecha en ReactJS y estilada con TailwindCSS, creada en Vite.
